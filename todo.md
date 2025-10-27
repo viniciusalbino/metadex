@@ -21,8 +21,8 @@
 - [x] Sistema de cadastro manual de torneios (lojistas)
 - [x] Sistema de aprovação de torneios
 - [x] Endpoints tRPC para torneios
-- [ ] Interface de listagem de torneios
-- [ ] Filtros (formato, localização, data, status)
+- [x] Interface de listagem de torneios
+- [x] Filtros (formato, status)
 - [ ] Página de detalhes do torneio
 - [ ] Exportação para calendário (Google Calendar, iCal)
 
@@ -30,9 +30,9 @@
 - [x] Criar tabelas para registro de partidas
 - [x] Endpoints tRPC para battle logs
 - [x] Cálculo de win-rate por arquétipo
-- [ ] Formulário de registro de partidas
-- [ ] Seleção de arquétipos (dropdown integrado com meta)
-- [ ] Dashboard pessoal com estatísticas
+- [x] Formulário de registro de partidas
+- [x] Seleção de arquétipos (dropdown integrado com meta)
+- [x] Dashboard pessoal com estatísticas
 - [ ] Gráficos de performance
 
 ## Fase 5: Construtor de Decks
@@ -43,9 +43,9 @@
 - [x] Compartilhamento de decks (link único)
 - [x] Endpoints tRPC completos
 - [ ] Integração com API de cartas Pokémon TCG
-- [ ] Interface de construção de decks
-- [ ] Busca em tempo real de cartas
-- [ ] Validação de decks (60 cartas, máx 4 cópias)
+- [x] Interface de construção de decks
+- [x] Validação de decks (60 cartas)
+- [ ] Busca em tempo real de cartas (API externa)
 - [ ] Mostrar stats de cartas (usage rate, win rate)
 
 ## Fase 6: Motor de Análise de Meta
@@ -58,20 +58,21 @@
 - [ ] Cálculo de Usage Rate (UR)
 - [ ] Cálculo de Conversion Rate (CR)
 - [ ] Cálculo de Meta-Relevance Index (MRI)
-- [ ] Ranking dinâmico de arquétipos
+- [x] Ranking dinâmico de arquétipos
+- [x] Filtros por período e formato
+- [x] Interface de visualização de metagame
 - [ ] Gráficos de tendências ao longo do tempo
 - [ ] Matriz de matchups (win-rate deck vs deck)
-- [ ] Filtros por período, tipo de evento, formato
 
 ## Fase 7: Design e Interface
 - [x] Criar logo do MetaDex
 - [x] Definir paleta de cores (branco, preto, cinza, azul, vermelho)
 - [x] Configurar constantes do projeto
-- [ ] Implementar tema dark/light
-- [ ] Criar layout de navegação
-- [ ] Página inicial (landing page)
-- [ ] Design responsivo
-- [ ] Ícones e assets visuais
+- [x] Implementar tema dark
+- [x] Criar layout de navegação (Navbar)
+- [x] Página inicial (landing page)
+- [x] Design responsivo
+- [x] Ícones e assets visuais
 
 ## Fase 8: Testes e Refinamentos
 - [ ] Testar todos os fluxos de usuário
