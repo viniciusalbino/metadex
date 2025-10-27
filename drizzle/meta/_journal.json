@@ -15,6 +15,13 @@
       "when": 1761529613006,
       "tag": "0001_boring_wiccan",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1761559047889,
+      "tag": "0002_majestic_calypso",
+      "breakpoints": true
     }
   ]
 }

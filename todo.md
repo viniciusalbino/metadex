@@ -93,3 +93,21 @@
 - [x] Documentação de deployment
 - [x] Entrega ao usuário
 
+
+
+## Fase 11: Sistema de Autenticação Próprio
+- [x] Remover dependência do Manus OAuth
+- [x] Implementar cadastro com email/senha
+- [x] Implementar login com email/senha
+- [x] Hash de senhas com bcrypt
+- [x] Adicionar campo de verificação de email no schema
+- [x] Sistema de envio de email de confirmação
+- [x] Endpoint de verificação de email
+- [x] Atualizar frontend com novos formulários
+- [x] Página de login/cadastro
+- [x] Página de verificação de email
+- [ ] Login com Google OAuth (preparado, precisa configurar credenciais)
+- [ ] Integração com Cloudflare Turnstile (preparado, precisa configurar chaves)
+- [ ] Testar fluxo completo de cadastro
+- [ ] Configurar serviço de email (SendGrid, AWS SES, etc)
+
