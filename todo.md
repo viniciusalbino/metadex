@@ -89,7 +89,7 @@
 - [x] Push do código
 
 ## Fase 10: Entrega
-- [ ] Checkpoint final
-- [ ] Documentação de deployment
-- [ ] Entrega ao usuário
+- [x] Checkpoint final
+- [x] Documentação de deployment
+- [x] Entrega ao usuário
 
