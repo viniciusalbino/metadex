@@ -83,10 +83,10 @@
 - [ ] Correção de bugs
 
 ## Fase 9: Repositório GitHub
-- [ ] Criar repositório no GitHub
-- [ ] Escrever README completo
-- [ ] Adicionar documentação
-- [ ] Push do código
+- [x] Criar repositório no GitHub
+- [x] Escrever README completo
+- [x] Adicionar documentação
+- [x] Push do código
 
 ## Fase 10: Entrega
 - [ ] Checkpoint final
