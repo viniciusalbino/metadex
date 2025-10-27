@@ -111,3 +111,13 @@
 - [ ] Testar fluxo completo de cadastro
 - [ ] Configurar serviço de email (SendGrid, AWS SES, etc)
 
+
+
+## Fase 12: Configuração para Desenvolvimento Local
+- [x] Criar guia de setup local (LOCAL_SETUP.md)
+- [x] Configurar variáveis de ambiente para desenvolvimento (ENV_VARIABLES.md)
+- [x] Documentar instalação de dependências
+- [x] Instruções para banco de dados local (MySQL, TiDB, Docker)
+- [x] Scripts de desenvolvimento
+- [x] Atualizar README.md com links para documentação
+

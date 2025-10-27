@@ -9,7 +9,12 @@ A plataforma definitiva para o cenário competitivo de Pokémon TCG. Acompanhe t
 ### ✅ Implementadas (MVP)
 
 - **Sistema de Autenticação**
-  - Login via OAuth (Manus)
+  - Cadastro e login com email/senha
+  - Verificação de email
+  - Hash de senhas com bcrypt
+  - Autenticação JWT
+  - Suporte para Google OAuth (preparado)
+  - Proteção contra bots com Cloudflare Turnstile (preparado)
   - Sistema de roles: User, Organizer, Admin
   - Controle de acesso por funcionalidade
 
@@ -118,7 +123,16 @@ npx tsx scripts/seed.ts
 pnpm dev
 ```
 
-A aplicação estará disponível em `http://localhost:3000`
+A aplicação estará disponível em:
+- **Frontend**: http://localhost:5173 (Vite dev server)
+- **Backend**: http://localhost:3000 (Express + tRPC)
+
+### 📚 Documentação Adicional
+
+- **[LOCAL_SETUP.md](./LOCAL_SETUP.md)** - Guia completo de configuração local (recomendado)
+- **[AUTH_SETUP.md](./AUTH_SETUP.md)** - Configuração de autenticação (Google OAuth, Email, Turnstile)
+- **[ENV_VARIABLES.md](./ENV_VARIABLES.md)** - Lista completa de variáveis de ambiente
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Instruções de deploy em produção
 
 ## 🗄️ Estrutura do Banco de Dados
 
